@@ -36,7 +36,7 @@ Content-based recommendation systems analyze the actual audio properties of song
 
 ### 3.1 Overview
 
-`![Recommendation Pipeline](images/figure1_pipeline.png)`
+![Recommendation Pipeline](./images/figure1_pipeline.png)
 
 ### 3.2 Data Collection
 
@@ -55,17 +55,17 @@ Melspectrogram = log(1 + α × spectrogram)
 ```
 where α is a scaling factor.
 
-`![Audio to Mel-spectrogram](images/figure2_melspec.png)`
+![Audio to Mel-spectrogram](./images/figure2_melspec.png)
 
 ### 3.4 Autoencoder Learning
 
 **Architecture:**
 
- `![Autoencoder Architecture](images/figure3_autoencoder.png)`
+ ![Autoencoder Architecture](./images/figure3_autoencoder.png)
 
 ### 3.5 Latent Embedding Extraction
 
-`![Latent Space Visualization](images/figure4_latent_space.png)`
+![Latent Space Visualization](./images/figure4_latent_space.png)
 
 ### 3.6 Similarity Algorithm
 
@@ -93,6 +93,8 @@ Each participant:
 
 ### 4.2 Results
 
+We collected these results from 19 participants:
+
 | Person | Seed Song | Artist | Recs | Listened | Love Rate |
 |--------|-----------|--------|------|----------|-----------|
 | 1 | Pump It | Black Eyed Peas | 11 | 7 | 0.636 |
@@ -116,11 +118,6 @@ Each participant:
 
 ⚠️ Some misses due to unrepresentative previews or mel-spectrogram limitations
 
-## Setup Instructions
-
-1. **Extract images** from PDF (Figures 1-5) → Save in `images/` folder
-2. **Update image paths** in markdown links above
-3. **Copy this content** → Save as `README.md`
 
 ## References
 
@@ -130,5 +127,5 @@ Each participant:
 4. Goodfellow et al. (2016). *Deep Learning* (MIT Press)
 5. McFee et al. (2015). librosa: Audio analysis in Python
 
-**Aappendix:** `![Autoencoder Code](images/figure5_code.png)`
+**Appendix:** ![Autoencoder Code](./images/figure5_code.png)
 
